@@ -1,5 +1,5 @@
 //Задание 1
-//let a = prompt('Введите число a')
+// let a = prompt('Введите число a')
 // function more(a) {
 //     if (a > 18) {
 //         console.log(true)
@@ -32,13 +32,14 @@
 //console.log(isPalindrome("level"));
 
 //Задание 5
-//function sumFirstAndLastDigit(number) {
-//    const numStr = number.toString();
-//    const firstDigit = parseInt(numStr[0]);
-//    const lastDigit = parseInt(numStr[numStr.length - 1]);
-//    return firstDigit + lastDigit;
-//}
-//console.log(sumFirstAndLastDigit(325)); // 8
+//let number = prompt("Введите число")
+//let numbers = []
+//function sum(number) {
+//     numbers = number.split("")
+//     let fin = parseInt(numbers[0]) + parseInt(numbers[number.length-1])
+//     console.log(fin)
+// }
+// sum(number)
 
 //Задание 6
 //function sumPositiveNumbers(array) {
@@ -49,7 +50,7 @@
 //        return sum;
 //    }, 0);
 //}
-//console.log(sumPositiveNumbers([1, 5, -3, 12, 7])); // 8
+//console.log(sumPositiveNumbers([1, 5, -3, 12, 7]));
 
 //Задание 7
 //function uniqueNumbers(array) {
@@ -65,18 +66,19 @@
 //console.log(countVowels("Привет")); // 2
 
 //Задание 9
-//function bubbleSort(array) {
-//    let sortedArray = array.slice(); // Копируем массив для сортировки
-//    const n = sortedArray.length;    
+//function bubbleSort(arr) {
+//    let n = arr.length;
 //    for (let i = 0; i < n; i++) {
 //        for (let j = 0; j < n - i - 1; j++) {
-//            if (sortedArray[j] > sortedArray[j + 1]) {
-//                [sortedArray[j], sortedArray[j + 1]] = [sortedArray[j + 1], sortedArray[j]];
+//            if (arr[j] > arr[j + 1]) {
+//                [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
 //            }
 //        }
 //    }
-//    return sortedArray;
+//    return arr;
 //}
-//console.log(bubbleSort([5, 3, 8, 1, 2])); // [1, 2, 3, 5, 8]
+//const numbers = [64, 34, 25, 12, 22, 11, 90];
+//const sortedNumbers = bubbleSort(numbers);
+//console.log(sortedNumbers);
 
 //Задание 10
