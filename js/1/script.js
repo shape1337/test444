@@ -1,10 +1,13 @@
 //Задание 1
-//function isGreaterThanEighteen(number) {
-//    return number > 18;
-//}
-//console.log(isGreaterThanEighteen(20));
-//console.log(isGreaterThanEighteen(15));
-//console.log(isGreaterThanEighteen(18));
+//let a = prompt('Введите число a')
+// function more(a) {
+//     if (a > 18) {
+//         console.log(true)
+//     } else {
+//         console.log(false)
+//     }
+// }
+// more(a)
 
 //Задание 2
 //function isEven(number) {
